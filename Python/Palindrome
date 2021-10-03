@@ -1,0 +1,8 @@
+#program to check if a given string is a Palindrome. 
+#String can contain digits, alphabet, Special Charcters, etc..
+str=input('enter a word: ')
+string=str[::-1]
+if str==string:
+    print('given string is palindrome')
+else:
+    print('given string is not palindrome')
